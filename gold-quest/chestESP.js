@@ -36,7 +36,7 @@
                                 margin-top: 200px;`
                             try { choiceDiv.children[i].appendChild(textElement); } catch (e) {
                                 if (confirm('An error occured, would you like to report this in the support discord server?')) {
-                                    window.open('https://glizzers.xyz/discord');
+                                    window.open('https://discord.gg/adwa');
                                 };
                             };
                         });
@@ -57,7 +57,7 @@ function footer() {
     let element = document.createElement('div');
 
     element.style = `font-family: "Nunito", sans-serif; font-size: 14px; height: 65px; width: 175px; border: 4px solid rgb(15, 15, 15); background: rgb(240, 240, 240); position: absolute; top: 20x; left: 20px; border-radius: 10px; color: rgb(0, 0, 0); text-align: center;`;
-    element.innerHTML = `<p>Made by gliz <br> My <a style="color: #0000ff;" href="https://twitter.com/glizuwu" target="_blank">twitter</a></p>`;
+    element.innerHTML = `<p>Made by XMAz_Jay <br> My <a style="color: #0000ff;" href="https://youtube.com/@XJay7" target="_blank">YouTube</a></p>`;
     document.body.appendChild(element);
 
     var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
